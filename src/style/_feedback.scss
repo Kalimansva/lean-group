@@ -1,0 +1,88 @@
+.feedback {
+    margin-bottom: 80px;
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C2D2E;
+        padding: 24px 20px 0;
+        margin-bottom: 16px;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    &__textarea {
+        padding: 12px;
+        width: 446px;
+        height: 80px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+        border-radius: 4px;
+    }
+
+    &__btn {
+        padding: 10px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #EF7C00;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 486px;
+        padding: 12px;
+        gap: 12px;
+
+        &-name {
+            width: 217px;
+            display: flex;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            overflow: hidden;
+
+            .form__input {
+                width: 178px;
+                padding: 12px;
+                border: none;
+            }
+
+            .name__img {
+                width: 40px;
+                height: 40px;
+                position: relative;
+                border-right: 1px solid rgba(0, 16, 61, 0.12);
+                overflow: hidden;
+
+                .form__img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+
+    &__main {
+        background: url('../images/feedback/img\ feedback.png') center/cover;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    }
+}

@@ -1,0 +1,16 @@
+.about {
+    padding: 40px 0 55px;
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #2C2D2E;
+        padding-bottom: 16px;
+    }
+}
