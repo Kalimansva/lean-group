@@ -34,6 +34,10 @@
             border-radius: 4px;
             display: inline-block;
             color: #EF7C00;
+            &:hover{
+                background: #EF7C00;
+                color: white;
+            }
         }
 
         &__btn {

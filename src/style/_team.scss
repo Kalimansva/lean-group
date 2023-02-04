@@ -1,0 +1,87 @@
+.team {
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+        padding-top: 40px;
+        margin-bottom: 32px;
+    }
+
+    .row {
+        margin-bottom: 52px;
+    }
+
+    &__colum {
+        width: 20%;
+        gap: 30px;
+    }
+
+    &-img {
+        border-radius: 50%;
+        margin-bottom: 12px;
+    }
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #2C2D2E;
+        margin-bottom: 4px;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: #919399;
+        margin-bottom: 16px;
+    }
+
+    &__num,
+    &__num-2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: #2C2D2E;
+        margin-bottom: 4px;
+    }
+
+    &__mail {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: #2C2D2E;
+    }
+
+    &__btn{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__btn-link {
+        padding: 10px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+            background: #EF7C00;
+            color: white;
+        }
+    }
+}
